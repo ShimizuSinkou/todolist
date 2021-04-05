@@ -1,0 +1,34 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #fffffe;
+}
+
+.container {
+    max-width: 400px;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #2d334a;
+}
+input[type=text],
+input[type=text]:focus {
+    color: #2d334a;
+    border: none;
+    background: #ffd803;
+    max-width: 400px;
+}
+/* 追加 */
+.todos li {
+    background: #bae8e8;
+    color: #2d334a;
+}
+
+/* 追加 */
+.delete {
+    cursor: pointer;
+    color: #272343;
+}
+/* 見かけ上削除。実際には消してない */
+.filtered {
+    display : none !important;
+}
